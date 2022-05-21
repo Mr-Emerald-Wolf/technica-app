@@ -11,7 +11,7 @@ export default function Landing() {
                         MedTrack
                     </h1>
                     <p className="font-bold mb-1 lg:text-4xl text-center text-lime-600 dark:text-slate-400">Insert Tagline Here</p>
-
+            
                 </main>
 
                 

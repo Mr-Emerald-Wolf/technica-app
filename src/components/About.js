@@ -32,7 +32,7 @@ export class About extends Component {
                                 Team Members
                             </h2>
                             <p className="dark:text-sky-200 text-lime-700 leading-relaxed md:text-xl">
-                            Shivam Sharma - Leader, Front End {"&"} UI Designer <br />Achintya Gupta - Role 1 {"&"}  Role 2 <br /> Devansh Kuldeep Mishra - Content Writer <br />Siddharth Dave - Backend {"&"} API Developer <br /> 
+                            Shivam Sharma - Leader, Front End {"&"} UI Designer <br />Achintya Gupta - Product Manager  <br /> Devansh Kuldeep Mishra - Content Writer <br />Siddharth Dave - Backend {"&"} API Developer <br /> 
                             </p>
 
                         </div>

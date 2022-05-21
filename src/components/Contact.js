@@ -44,7 +44,7 @@ export class Contact extends Component {
                                     Telephone
                                 </h2>
                                 <p className="dark:text-lime-200 text-sm text-lime-700 leading-relaxed md:text-xl" >
-                                    
+                                    8764564323
                                 </p>
 
                             </div>
