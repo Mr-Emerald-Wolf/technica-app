@@ -39,9 +39,9 @@ export default function Navbar({ fixed }) {
 
                 <div className="md:hidden">
                     <ul className={(navbarOpen ? "" : "hidden")}>
-                        <li><Link to="/help" className="block text-sm px-2 py-4 bg-sky-100 hover:bg-slate-100 transition dark:bg-[#01182e] dark:hover:bg-slate-900  duration-300">Help</Link></li>
-                        <li><Link to="/about" className="block text-sm px-2 py-4 bg-white hover:bg-slate-100 transition dark:bg-[#001529] dark:hover:bg-slate-900 duration-300">About</Link></li>
-                        <li><Link to="/contact" className="block text-sm px-2 py-4 bg-sky-100 hover:bg-slate-100 transition dark:bg-[#01182e] dark:hover:bg-slate-900 duration-300">Contact</Link></li>
+                        <li><Link to="/help" className="block text-lime-600 text-sm px-2 py-4 bg-amber-50 hover:bg-orange-100 transition dark:bg-[#01182e] dark:hover:bg-slate-900  duration-300">Help</Link></li>
+                        <li><Link to="/about" className="block text-lime-600 text-sm px-2 py-4 bg-orange-50 hover:bg-orange-100 transition dark:bg-[#001529] dark:hover:bg-slate-900 duration-300">About</Link></li>
+                        <li><Link to="/contact" className="block text-lime-600 text-sm px-2 py-4 bg-amber-50 hover:bg-orange-100 transition dark:bg-[#01182e] dark:hover:bg-slate-900 duration-300">Contact</Link></li>
                     </ul>
                 </div>
             </header>

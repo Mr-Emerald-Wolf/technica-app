@@ -16,17 +16,17 @@ export class Contact extends Component {
                                 <h2 className="title-font font-semibold text-lime-900 dark:text-white tracking-widest md:text-2xl">
                                     ADDRESS
                                 </h2>
-                                <p className="mt-1 dark:text-lime-200 text-lime-700 md:text-xl">
+                                <p className="mt-1 dark:text-lime-200 text-lime-700 md:text-xl text-sm">
                                     India <br />
-                                    Hyderabad
+                                    Vellore
                                 </p>
                             </div>
                             <div className="px-6 mt-4">
                                 <h2 className="title-font font-semibold text-lime-900 dark:text-white tracking-widest md:text-2xl">
                                     EMAIL
                                 </h2>
-                                <p className="dark:text-lime-200 text-lime-700 leading-relaxed md:text-xl">
-                                    comparocommerce@gmail.com
+                                <p className="dark:text-lime-200 text-lime-700 leading-relaxed md:text-xl text-sm">
+                                    support@medtrack.com
                                 </p>
 
                             </div>
@@ -34,8 +34,8 @@ export class Contact extends Component {
                                 <h2 className="title-font font-semibold text-lime-900 dark:text-white tracking-widest md:text-2xl">
                                     Instagram
                                 </h2>
-                                <a className="dark:text-lime-200 text-lime-700 leading-relaxed md:text-xl" href="https://www.instagram.com/comparo.ecommerce/">
-                                    comparo.commerce
+                                <a className="dark:text-lime-200 text-sm text-lime-700 leading-relaxed md:text-xl" href="https://www.instagram.com/">
+                                    medtrack_official
                                 </a>
 
                             </div>
@@ -43,8 +43,8 @@ export class Contact extends Component {
                                 <h2 className="title-font font-semibold text-lime-900 dark:text-white tracking-widest md:text-2xl">
                                     Telephone
                                 </h2>
-                                <p className="dark:text-lime-200 text-lime-700 leading-relaxed md:text-xl" >
-                                    8555509495
+                                <p className="dark:text-lime-200 text-sm text-lime-700 leading-relaxed md:text-xl" >
+                                    
                                 </p>
 
                             </div>
