@@ -3,7 +3,7 @@ import React from 'react'
 export default function Item() {
     return (
         <>
-            <div className="m-2 p-2 bg-amber-50">
+            <div className="m-2 p-2 bg-amber-50 rounded shadow">
                 <p>Date Issued: </p>
                 <table class="table-auto">
                     <thead>

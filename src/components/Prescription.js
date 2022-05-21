@@ -16,7 +16,6 @@ export default function Prescription() {
         <Item/>
         <Item/>
         <Item/>
-
     </div>
 
 
