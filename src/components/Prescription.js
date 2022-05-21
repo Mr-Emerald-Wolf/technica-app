@@ -12,7 +12,7 @@ export default function Prescription() {
     <h1 className="text-xl md:text-3xl lg:text-6xl p-3 font-kalam font-bold dark:text-[#c3c3ae] text-lime-1000">
         My Prescriptions
     </h1>
-    <div className="grid grid-flow-col md:grid-flow-row">
+    <div className="grid grid-flow-row md:grid-flow-col">
         <Item/>
         <Item/>
         <Item/>
