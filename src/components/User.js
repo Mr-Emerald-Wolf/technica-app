@@ -2,7 +2,7 @@ import React from 'react'
 import { useAuth0 } from "@auth0/auth0-react";
 
 export default function User() {
-    
+    const { user } = useAuth0();
     
     return (
         <>
@@ -16,10 +16,10 @@ export default function User() {
                     </h1>
                     <div className="px-6">
                         <h2 className="title-font font-semibold text-lime-900 dark:text-[#aeae9a] tracking-widest md:text-2xl">
-                            How to use Comparo ?
+                           Email
                         </h2>
                         <p className="mt-1 dark:text-[#96b565] text-lime-700 md:text-xl">
-                            Search for the product of your choice and get results from major e-commerce sites selling similar products to get an idea of pricing and specification.
+                            {user.email}
                         </p>
                     </div>
                     <div className="px-6 mt-4">

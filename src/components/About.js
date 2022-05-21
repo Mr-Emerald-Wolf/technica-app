@@ -15,7 +15,7 @@ export class About extends Component {
                         <div className="px-6">
 
                             <p className="mt-1 dark:text-[#96b565] text-lime-700 md:text-xl">
-                                Going into an e-commerce website and spending hours upon hours comparing multiple different products, their prices, specifications etc... is an arduous cycle of hesitation and deliberation which we are all too familiar with. With Comparo say good-bye to this hassle forever ! Comparo allows you to select multiple items from every different e-commerce site, be it Amazon or Flipkart and provides you with a simple UI where you can compare all the different items in 1 place. As students, we may not be able to make an impact on a large enough scale but we hoped to make the road easier for others. And that is what Comparo aims to do.
+                                At MedTrack, our core values are centred around your wellbeing. We are a team of highly motivated individuals solely focused on our goal of making life easier for people with medical conditions by helping them keep track of their drug prescriptions, with reminders to take medicines on time. With consultation from medical experts, MedTrack will inform you about any side effects that the drugs may cause, and lets you take precautionary measures. MedTrack will remind you to take regular health check-ups, ensuring that your road to recovery is smooth-sailing.  
                             </p>
                         </div>
 
