@@ -3,7 +3,7 @@ import { useAuth0 } from "@auth0/auth0-react";
 
 export default function User() {
     const { user } = useAuth0();
-    
+
     return (
         <>
             <section className="dark:bg-[#10332d] bg-orange-50 min-h-screen p-2">
@@ -16,7 +16,7 @@ export default function User() {
                     </h1>
                     <div className="px-6">
                         <h2 className="title-font font-semibold text-lime-900 dark:text-[#aeae9a] tracking-widest md:text-2xl">
-                           Email
+                            Email
                         </h2>
                         <p className="mt-1 dark:text-[#96b565] text-lime-700 md:text-xl">
                             {user.email}
@@ -34,10 +34,10 @@ export default function User() {
                     </div>
                     <div className="px-6 mt-4">
                         <h2 className="title-font font-semibold text-lime-900 dark:text-[#aeae9a] tracking-widest md:text-2xl">
-                            Doctor Name 
+                            Doctor Name
                         </h2>
                         <a className="dark:text-[#96b565] text-lime-700 leading-relaxed md:text-xl" href="https://www.instagram.com/comparo.ecommerce/">
-                           Dr.Strange
+                            Dr.Strange
                         </a>
 
                     </div>
@@ -46,16 +46,16 @@ export default function User() {
                             Blood Group
                         </h2>
                         <p className="dark:text-[#96b565] text-lime-700 leading-relaxed md:text-xl" >
-                           O+
+                            O+
                         </p>
 
                     </div>
                     <div className="px-6 mt-4">
                         <h2 className="title-font font-semibold text-lime-900 dark:text-[#aeae9a] tracking-widest md:text-2xl">
-                           Allergies
+                            Allergies
                         </h2>
                         <p className="dark:text-[#96b565] text-lime-700 leading-relaxed md:text-xl" >
-                          None
+                            None
                         </p>
 
                     </div>

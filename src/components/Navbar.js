@@ -23,7 +23,7 @@ export default function Navbar({ fixed }) {
                     <ul className="items-stretch hidden space-x-3 md:flex">
                         <li className="flex">
                            {isLoading && <p className="flex items-center px-4 -mb-1 hover:text-lime-600 dark:text-[#96b565]  dark:border-transparent text-lime-800">Loading..</p>}
-                           { !isAuthenticated && <LoginButton/>}
+                           {!isLoading && !isAuthenticated && <LoginButton/>}
                            {!isLoading && isAuthenticated && <Link to="/user" className="flex items-center px-4 -mb-1 hover:text-lime-600 dark:text-[#96b565]  dark:border-transparent text-lime-800">Welcome {user.given_name}</Link>}
                         </li>
                         <li className="flex">

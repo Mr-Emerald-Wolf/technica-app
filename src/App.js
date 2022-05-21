@@ -11,16 +11,17 @@ import Prescription from './components/Prescription';
 function App() {
   return (
     <>
-    <Navbar/>
-    <Routes>
+      <Navbar />
+      <Routes>
 
-<Route path="/" element={<Landing />} />
-<Route path="about" element={<About />} />
-<Route path="contact" element={<Contact />} />
-<Route path="help" element={<Help />} />
-<Route path="user" element={<User/>}/>
-<Route path="prescription" element={<Prescription/>}/>
-</Routes>
+        <Route path="/" element={<Landing />} />
+        <Route path="about" element={<About />} />
+        <Route path="contact" element={<Contact />} />
+        <Route path="help" element={<Help />} />
+        <Route path="user" element={<User />} />
+        <Route path="prescription" element={<Prescription />} />
+        
+      </Routes>
     </>
   );
 }
