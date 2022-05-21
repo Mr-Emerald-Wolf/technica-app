@@ -8,21 +8,23 @@ import LogoutButton from "./LogoutButton";
 
 export default function Navbar({ fixed }) {
     const [navbarOpen, setNavbarOpen] = React.useState(false);
-    const { user, isAuthenticated } = useAuth0();
+    const { user, isAuthenticated, isLoading} = useAuth0();
     const { logout } = useAuth0();
     console.log(user);
+   
 
     return (
         <>
-            <header className="bg-orange-50 dark:bg-[#264d48] md:p-1 z-20 top-0 md:sticky">
+            <header className="bg-orange-100 dark:bg-[#264d48] md:p-1 z-20 top-0 md:sticky">
                 <div className="container flex justify-between mx-auto">
-                    <Link to="/" aria-label="Back to homepage" className="flex items-center p-1 font-Rosarivo text-2xl dark:text-[#c3c3ae] text-lime-800">
+                    <Link to="/" aria-label="Back to homepage" className="flex items-center p-2 md:p-1 font-Rosarivo text-2xl dark:text-[#c3c3ae] text-lime-800">
                         MedTrack
                     </Link>
                     <ul className="items-stretch hidden space-x-3 md:flex">
                         <li className="flex">
-                           {!isAuthenticated && <LoginButton/>}
-                           {isAuthenticated && <Link to="/user" className="flex items-center px-4 -mb-1 hover:text-lime-600 dark:text-[#96b565]  dark:border-transparent text-lime-800">Welcome {user.given_name}</Link>}
+                           {isLoading && <p className="flex items-center px-4 -mb-1 hover:text-lime-600 dark:text-[#96b565]  dark:border-transparent text-lime-800">Loading..</p>}
+                           { !isAuthenticated && <LoginButton/>}
+                           {!isLoading && isAuthenticated && <Link to="/user" className="flex items-center px-4 -mb-1 hover:text-lime-600 dark:text-[#96b565]  dark:border-transparent text-lime-800">Welcome {user.given_name}</Link>}
                         </li>
                         <li className="flex">
                             <Link to="/help" className="flex items-center px-4 -mb-1 dark:text-[#96b565] hover:text-lime-600  dark:border-transparent text-lime-800">Help</Link>

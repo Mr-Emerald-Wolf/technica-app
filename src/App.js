@@ -5,6 +5,7 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Help from './components/Help';
 import User from './components/User';
+import Prescription from './components/Prescription';
 
 
 function App() {
@@ -18,7 +19,7 @@ function App() {
 <Route path="contact" element={<Contact />} />
 <Route path="help" element={<Help />} />
 <Route path="user" element={<User/>}/>
-
+<Route path="prescription" element={<Prescription/>}/>
 </Routes>
     </>
   );

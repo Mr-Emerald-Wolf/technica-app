@@ -14,34 +14,35 @@ export class Help extends Component {
                             </h1>
                             <div className="px-6">
                                 <h2 className="title-font font-semibold text-lime-900 dark:text-[#aeae9a] tracking-widest md:text-2xl">
-                                    How to use Comparo ? 
+                                 What does MedTrack do? 
                                 </h2>
                                 <p className="mt-1 dark:text-[#96b565] text-lime-700 md:text-xl">
-                                Search for the product of your choice and get results from major e-commerce sites selling similar products to get an idea of pricing and specification.
+                                MedTrack helps you keep track of your drug prescriptions and reminds you to take them on time. MedTrack will identify if a certain drug can cause side-effects, and will remind you to take up health check-ups in order to keep side-effects at bay. 
+  
                                 </p>
                             </div>
                             <div className="px-6 mt-4">
                                 <h2 className="title-font font-semibold text-lime-900 dark:text-[#aeae9a] tracking-widest md:text-2xl">
-                                    Is our data accurate ? 
+                                How does MedTrack work? 
                                 </h2>
                                 <p className="dark:text-[#96b565] text-lime-700 leading-relaxed md:text-xl">
-                                Our data is very accurate since it combines data from major e-commerce sites who sell similar products and presents an optimal price and accurate specifications for the product.
+                                If your doctor is already a partner of MedTrack, they can upload your prescription to our database, with which we can automatically send periodic notifications through e-mail to remind you to take the medicines. If not, you can easily upload the prescription by yourself using our highly interactive website. 
 
                                 </p>
 
                             </div>
                             <div className="px-6 mt-4">
                                 <h2 className="title-font font-semibold text-lime-900 dark:text-[#aeae9a] tracking-widest md:text-2xl">
-                                   What is our subscription model ?
+                                Why should I use MedTrack instead of setting up alarms?
                                 </h2>
                                 <a className="dark:text-[#96b565] text-lime-700 leading-relaxed md:text-xl" href="https://www.instagram.com/comparo.ecommerce/">
-                                    20 free searches everyday, after that Rs.249 every month for unrestricted access.
+                                   Less Work and Saves time 
                                 </a>
 
                             </div>
                             <div className="px-6 mt-4">
                                 <h2 className="title-font font-semibold text-lime-900 dark:text-[#aeae9a] tracking-widest md:text-2xl">
-                                    How does it work ? 
+                                   What is our revenue model ? 
                                 </h2>
                                 <p className="dark:text-[#96b565] text-lime-700 leading-relaxed md:text-xl" >
                                 Our developers have created an algorithm to collect the live data of products from e-commerce sites and put together data of the optimal price for your products and gives you the specification of similar products as well.
