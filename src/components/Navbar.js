@@ -17,13 +17,13 @@ export default function Navbar({ fixed }) {
                             <p className="flex items-center px-4 -mb-1  dark:border-transparent text-lime-800">Welcome User</p>
                         </li>
                         <li className="flex">
-                            <Link to="/help" className="flex items-center px-4 -mb-1 hover:text-sky-800  dark:border-transparent text-lime-800">Help</Link>
+                            <Link to="/help" className="flex items-center px-4 -mb-1 hover:text-lime-600  dark:border-transparent text-lime-800">Help</Link>
                         </li>
                         <li className="flex">
-                            <Link to="/about" className="flex items-center px-4 -mb-1 hover:text-sky-800  dark:border-transparent text-lime-800">About</Link>
+                            <Link to="/about" className="flex items-center px-4 -mb-1 hover:text-lime-600  dark:border-transparent text-lime-800">About</Link>
                         </li>
                         <li className="flex">
-                            <Link to="/contact" className="flex items-center px-4 -mb-1 hover:text-sky-800  dark:border-transparent text-lime-800">Contact</Link>
+                            <Link to="/contact" className="flex items-center px-4 -mb-1 hover:text-lime-600  dark:border-transparent text-lime-800">Contact</Link>
                         </li>
                     </ul>
 
