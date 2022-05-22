@@ -1,7 +1,11 @@
 import React from 'react'
 import Item from './Item'
+import { prescription } from "../data";
+
+
 
 export default function Prescription() {
+  //console.log(prescription);
   return (
     <>
      <section className="dark:bg-[#10332d] min-h-screen p-2 bg-orange-50">
@@ -13,9 +17,9 @@ export default function Prescription() {
         My Prescriptions
     </h1>
     <div className="grid grid-flow-row md:grid-flow-col">
-        <Item/>
-        <Item/>
-        <Item/>
+    {prescription.map((data) => (
+            <Item key={data.date} data={data}/>
+          ))}
     </div>
 
 

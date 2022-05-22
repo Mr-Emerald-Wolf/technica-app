@@ -15,7 +15,7 @@ export default function Landing() {
                     <p className="mb-4 lg:text-3xl font-bold text-center text-lime-600 dark:text-[#8eca60] ">YOUR WELLBEING PARTNER</p>
                 
                 </main>
-                <Link to="/prescription" className="bg-orange-100 dark:bg-[#264d48] md:p-3 md:m-4 m-2 p-1 shadow rounded-md text-2xl text-lime-600 dark:text-[#8eca60] ">My Prescriptions</Link>
+                <Link to="/prescription" className="bg-orange-100 dark:bg-[#264d48] md:p-3 md:m-4 m-2 p-2 shadow rounded-md text-2xl text-lime-600 dark:text-[#8eca60] ">My Prescriptions</Link>
                 
             </section>
           
