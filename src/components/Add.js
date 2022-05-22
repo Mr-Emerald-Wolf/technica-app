@@ -17,7 +17,7 @@ export default function Add() {
                         </h2>
                         <input
                             type="date"
-                            class="
+                            className="
                                 form-control
                                 block
                                 w-full
@@ -45,7 +45,7 @@ export default function Add() {
                         </h2>
                         <input
                             type="text"
-                            class="
+                            className="
                                 form-control
                                 block
                                 w-full

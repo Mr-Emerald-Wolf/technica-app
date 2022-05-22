@@ -10,7 +10,7 @@ export default function Navbar({ fixed }) {
     const [navbarOpen, setNavbarOpen] = React.useState(false);
     const { user, isAuthenticated, isLoading} = useAuth0();
     const { logout } = useAuth0();
-    console.log(user);
+    //console.log(user);
    
 
     return (
