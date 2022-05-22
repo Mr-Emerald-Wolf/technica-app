@@ -2,16 +2,20 @@ import React from 'react'
 import Item from './Item'
 import { prescription } from "../data";
 import { Link } from "react-router-dom";
-
+import { useAuth0 } from "@auth0/auth0-react";
+import Spinner from './Spinner';
 
 
 export default function Prescription() {
+  const {loginWithRedirect, isAuthenticated} = useAuth0();
+  if (!isAuthenticated){
+    loginWithRedirect();
+  }
   //console.log(prescription);
   return (
     <>
-      <section className="dark:bg-[#10332d] min-h-screen p-2 bg-orange-50">
-
-
+      {!isAuthenticated && (<div className='dark:bg-[#10332d] bg-orange-50 min-h-screen'><Spinner/></div>)}
+      {isAuthenticated && (<section className="dark:bg-[#10332d] min-h-screen p-2 bg-orange-50">
 
         <div className="bg-orange-100 dark:bg-[#264d48] p-6 mt-6 m-4 rounded shadow-md ">
           <h1 className="text-3xl md:text-4xl lg:text-6xl p-3 font-kalam font-bold dark:text-[#c3c3ae] text-lime-1000">
@@ -32,7 +36,7 @@ export default function Prescription() {
         </div>
 
 
-      </section>
+      </section>)}
     </>
   )
 }
