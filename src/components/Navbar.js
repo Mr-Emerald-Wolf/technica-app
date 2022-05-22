@@ -53,10 +53,10 @@ export default function Navbar({ fixed }) {
 
                 <div className="md:hidden">
                     <ul className={(navbarOpen ? "grid grid-cols-1" : "hidden")}>
-                        <li className=" text-lime-600 text-sm p-4 bg-amber-50 hover:bg-orange-100 transition dark:bg-[#10332d]  dark:hover:bg-[#0a1f1c]  duration-300"><Link to="/help" >Help</Link></li>
-                        <li className=" text-lime-600 text-sm p-4 bg-orange-50 hover:bg-orange-100 transition dark:bg-[#264d48] dark:hover:bg-[#0a1f1c] duration-300"><Link to="/about" >About</Link></li>
-                        <li  className=" text-lime-600 text-sm  p-4 bg-amber-50 hover:bg-orange-100 transition dark:bg-[#10332d]  dark:hover:bg-[#0a1f1c] duration-300"><Link to="/contact">Contact</Link></li>
-                        {isAuthenticated && <li className=" text-lime-600 text-sm p-4 bg-amber-50 hover:bg-orange-100 transition dark:bg-[#264d48] dark:hover:bg-[#0a1f1c] duration-300" onClick={logout}>Log Out</li>}
+                        <li ><Link className="block text-lime-600 text-sm p-4 bg-amber-50 hover:bg-orange-100 transition dark:bg-[#10332d]  dark:hover:bg-[#0a1f1c]  duration-300" to="/help" >Help</Link></li>
+                        <li ><Link className="block text-lime-600 text-sm p-4 bg-orange-50 hover:bg-orange-100 transition dark:bg-[#264d48] dark:hover:bg-[#0a1f1c] duration-300" to="/about" >About</Link></li>
+                        <li ><Link  className="block text-lime-600 text-sm  p-4 bg-amber-50 hover:bg-orange-100 transition dark:bg-[#10332d]  dark:hover:bg-[#0a1f1c] duration-300" to="/contact">Contact</Link></li>
+                        {isAuthenticated && <li className="block text-lime-600 text-sm p-4 bg-orange-50 hover:bg-orange-100 transition dark:bg-[#264d48] dark:hover:bg-[#0a1f1c] duration-300" onClick={logout}>Log Out</li>}
                     </ul>
                 </div>
             </header>
