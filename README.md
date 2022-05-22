@@ -17,8 +17,7 @@ We used- ReactJS, TailwindCSS, NodeJS, MongoDB
 ----
 Since we split up the jobs between people, front-end and back-end are on two different repositories for now.
 
-UI - https://github.com/Mr-Emerald-Wolf/comparo-ui \
-Backend - https://github.com/Abu-Lut/Comparo
+UI - https://github.com/Mr-Emerald-Wolf/technica-app \
 ----
 
 ### Challenges we ran into
@@ -31,12 +30,12 @@ We are glad that we not only created a solution to the general population's ever
 
 ----
 
-### What's next for Comparo
+### What's next for MedTrack
 - Mobile version of the application
 - Providing suggestions and varieties available based on the searches
 
 ----
-### 🏠 [Homepage](https://github.com/Mr-Emerald-Wolf/comparo-ui)
+### 🏠 [Homepage](https://github.com/Mr-Emerald-Wolf/technica-app)
 
 
 ### ✨ [Demo](https://medtrack.netlify.app)
