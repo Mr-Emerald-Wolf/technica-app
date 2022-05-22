@@ -12,34 +12,27 @@ while also alerting them about potential dilemmas with their prescription due to
 With MedTrack, you can rest assured that your journey towards recovery will be smooth-sailing!
 ### What it does 
 
-As you open the app, you will see the option to choose the e-commerce website you want to pick an item from. Simply input the link to the item and you now have the item, its price and all listed specifications in front of you to give the user a general idea/template, repeat this for all the items you need and enjoy your convenience e-shopping experience.
+MedTrack helps you keep track of your drug prescriptions and reminds you to take them on time. Your doctor can upload your prescriptions, or you can do it yourself as well very easily, MedTrack will also inform you about going for regular health check-ups as and when necessary. If there are some drugs which have conflicting effects, MedTrack will alert you about them.
 
 ----
 ### How we built it 
 
-To begin, we created a Figma prototype of how the UI would look and then began coding the app with web scraping libraries. 
-The website is scraped for important details such as prices and specifications which are then listed on the website.
-We used- ReactJS, TailwindCSS, NodeJS, MongoDB
-
+We used React.js, Tailwind CSS, React-Router and Push Notifications to create the front-end. For the back-end, we used MongoDB, ExpressJS, and NodeJS
 ----
-Since we split up the jobs between people, front-end and back-end are on two different repositories for now.
-
+### Repository
 UI - https://github.com/Mr-Emerald-Wolf/technica-app 
 ----
 
 ### Challenges we ran into
-We had a problem creating an API from scratch and integrating it into the project's front-end.
-
+Both of our Tech Leads were experienced only with front-end, and had very little experience with MongoDB, and ExpressJS. Hence, we created the back-end by reading documentations and found it hard to integrate with the front-end within the time frame.
 ----
 
 ### Accomplishments we are proud of
-We are glad that we not only created a solution to the general population's everyday concerns but also worked on a platform that might assist those who are new to developing their own e-shops and are experiencing difficulties with pricing and decision-making.
-
+We successfully created the front-end app, successfully integrated Auth0 API for login and user data storage. We also successfully added push notifications for medicine reminders.
 ----
 
 ### What's next for MedTrack
-- Mobile version of the application
-- Providing suggestions and varieties available based on the searches
+The first step is making MedTrack into a PWA. Then we want to integrate WhatsApp API in order to send notification via WhatsApp. In the future we want to add multi-language support in order to reach a wider audience.
 
 ----
 ### 🏠 [Homepage](https://github.com/Mr-Emerald-Wolf/technica-app)
@@ -50,7 +43,7 @@ We are glad that we not only created a solution to the general population's ever
 ## Install
 
 ```sh
-npm start
+npm install
 ```
 
 ## Usage
