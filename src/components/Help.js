@@ -31,24 +31,7 @@ export class Help extends Component {
                                 </p>
 
                             </div>
-                            <div className="px-6 mt-4">
-                                <h2 className="title-font font-semibold text-lime-900 dark:text-[#aeae9a] tracking-widest md:text-2xl">
-                                Why should I use MedTrack instead of setting up alarms?
-                                </h2>
-                                <a className="dark:text-[#96b565] text-lime-700 leading-relaxed md:text-xl" href="https://www.instagram.com/comparo.ecommerce/">
-                                   Less Work and Saves time 
-                                </a>
-
-                            </div>
-                            <div className="px-6 mt-4">
-                                <h2 className="title-font font-semibold text-lime-900 dark:text-[#aeae9a] tracking-widest md:text-2xl">
-                                   What is our revenue model ? 
-                                </h2>
-                                <p className="dark:text-[#96b565] text-lime-700 leading-relaxed md:text-xl" >
-                                Our developers have created an algorithm to collect the live data of products from e-commerce sites and put together data of the optimal price for your products and gives you the specification of similar products as well.
-                                </p>
-
-                            </div>
+                            
                         </div>
 
                    
