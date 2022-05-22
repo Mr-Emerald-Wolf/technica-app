@@ -24,7 +24,7 @@ We used- ReactJS, TailwindCSS, NodeJS, MongoDB
 ----
 Since we split up the jobs between people, front-end and back-end are on two different repositories for now.
 
-UI - https://github.com/Mr-Emerald-Wolf/technica-app \
+UI - https://github.com/Mr-Emerald-Wolf/technica-app 
 ----
 
 ### Challenges we ran into
