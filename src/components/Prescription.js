@@ -5,8 +5,11 @@ import { Link } from "react-router-dom";
 import { useAuth0 } from "@auth0/auth0-react";
 import Spinner from './Spinner';
 
+import { Notifications } from 'react-push-notification';
+
 
 export default function Prescription() {
+  
   const {loginWithRedirect, isAuthenticated} = useAuth0();
   if (!isAuthenticated){
     loginWithRedirect();
@@ -14,6 +17,7 @@ export default function Prescription() {
   //console.log(prescription);
   return (
     <>
+      <Notifications />
       {!isAuthenticated && (<div className='dark:bg-[#10332d] bg-orange-50 min-h-screen'><Spinner/></div>)}
       {isAuthenticated && (<section className="dark:bg-[#10332d] min-h-screen p-2 bg-orange-50">
 
@@ -29,7 +33,7 @@ export default function Prescription() {
             ))}
           </div>
 
-          <div class='flex items-center justify-center'>
+          <div className='flex items-center justify-center'>
             <Link to="/add" className="bg-yellow-50 dark:bg-[#10332d] md:p-3 md:m-4 m-2 p-3 shadow rounded-md text-xl text-lime-600 dark:text-[#8eca60] ">Add Prescription</Link>
           </div>
 
