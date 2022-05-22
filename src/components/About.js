@@ -1,11 +1,12 @@
 import React, { Component } from 'react'
 
 export class About extends Component {
+    //won 2 prizes
     render() {
         return (
             <>
                 <section className="dark:bg-[#10332d] min-h-screen p-2 bg-orange-50">
-
+            
 
 
                     <div className="bg-orange-100 dark:bg-[#264d48] p-6 mt-6 m-4 rounded shadow-md ">
