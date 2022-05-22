@@ -2,7 +2,14 @@
 <p>
 </p>
 
-> MedTrack OP
+People these days are often struggling with large workloads and a lot of commitments resulting in very little free time. Managing a sickness on top of that is a tough task that leaves people overwhelmed. 
+
+Introducing MedTrack, your wellbeing partner. 
+MedTrack helps you keep track of your medicine consumption easily and efficiently. 
+
+Our aim is to help people by alleviating the pressure of remembering their drug prescriptions
+while also alerting them about potential dilemmas with their prescription due to conflicting effects of medicines if any.
+With MedTrack, you can rest assured that your journey towards recovery will be smooth-sailing!
 ### What it does 
 
 As you open the app, you will see the option to choose the e-commerce website you want to pick an item from. Simply input the link to the item and you now have the item, its price and all listed specifications in front of you to give the user a general idea/template, repeat this for all the items you need and enjoy your convenience e-shopping experience.
