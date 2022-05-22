@@ -29,7 +29,7 @@ function Item(props) {
         setTimeout(() => { successNotification() }, 5000);
     }
 
-    console.log(props.data.medicine.length);
+    //console.log(props.data);
 
 
     return (
@@ -53,7 +53,7 @@ function Item(props) {
                                         <td className="md:m-2 md:p-1 text-lime-800  dark:text-[#8eca60]">{props.data.dosage[index]}</td>
                                         <td className="md:m-2 md:p-1 text-lime-800 dark:text-[#8eca60]">{props.data.duration[index]}</td>
                                     </tr>
-
+                                   
                                 </>
                             )
                         })}
@@ -61,6 +61,7 @@ function Item(props) {
 
                     </tbody>
                 </table>
+                {props.data.conflicting !== undefined && <p className="mt-1 dark:text-[#ff8a8a] text-red-700 md:text-xl font-bold">{props.data.conflicting}</p>}
                 <p className='mt-1 dark:text-[#9ee16b] text-lime-700 md:text-xl font-bold'>Doctor: {props.data.doctor}</p>
                 <button onClick={sendNotification} className="bg-orange-100 dark:bg-[#264d48]  m-2 p-2 shadow rounded-md  text-lime-600 dark:text-[#8eca60] ">Send Notifications</button>
             </div>

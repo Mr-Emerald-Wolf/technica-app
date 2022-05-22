@@ -29,7 +29,7 @@ export default function Prescription() {
 
           <div className="grid grid-flow-row md:grid-flow-col">
             {prescription.map((data) => (
-              <Item key={data.date} data={data} />
+              <Item key={data.id} data={data} />
             ))}
           </div>
 
