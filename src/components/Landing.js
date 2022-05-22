@@ -14,7 +14,7 @@ export default function Landing() {
                         <img className='w-1/2 -mb-6  dark:hidden' src="./assets/logo_light.png" alt="Logo" />
                         {<img className='w-1/2 -mb-6  hidden dark:block' src="./assets/logo_dark.png" alt="Logo" />}
                     </div>
-                    <h1 className="text-6xl md:text-6xl lg:text-9xl -mt-6 md:p-3 font-kalam font-bold dark:text-[#c3c3ae] text-lime-800 text-center">
+                    <h1 className="text-6xl md:text-6xl lg:text-9xl md:-mt-6 md:p-3 font-kalam font-bold dark:text-[#c3c3ae] text-lime-800 text-center">
                         MedTrack
                     </h1>
                     <p className="mb-4 text-2xl lg:text-3xl font-bold text-center text-lime-600 dark:text-[#8eca60] ">YOUR WELLBEING PARTNER</p>
